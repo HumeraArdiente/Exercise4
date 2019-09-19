@@ -25,8 +25,8 @@ public class Java_exer1  {
         Rectangle rectangle = new Rectangle(l, w);
         
         System.out.println("\n" + circle.toString());
-        System.out.println("Area : " + circle.getArea());
-        System.out.println("Circumference : " + circle.getCircumference());
+        System.out.printf("Area : %.2f", circle.getArea());
+        System.out.printf("\nCircumference : %.2f\n", circle.getCircumference());
         
         System.out.println("\n" + rectangle.toString());
         System.out.println("Area : " + rectangle.getArea());
